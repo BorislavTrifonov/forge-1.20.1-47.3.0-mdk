@@ -25,8 +25,19 @@ public class ModCreativeModTabs {
                     })
                     .build());
 
+    public static final RegistryObject<CreativeModeTab> CUSTOM_FOODS = CREATIVE_MODE_TABS.register("custom_foods_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FRIED_RICE.get()))
+                    .title(Component.translatable("creativetab.custom_foods_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.FRIED_RICE.get());
+
+
+                    })
+                    .build());
+
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }
 
 }
+
