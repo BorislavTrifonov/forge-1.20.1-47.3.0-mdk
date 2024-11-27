@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:raw_sapphire"
+    }
+  },
+  "ingredients": [
+    {
+      "item": "tutorialmod:raw_sapphire"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:raw_sapphire_block"
+  }
+}

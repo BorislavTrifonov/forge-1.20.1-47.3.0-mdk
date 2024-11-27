@@ -1,0 +1,7 @@
+{
+  "parent": "tutorialmod:block/rosewood_planks",
+  "textures": {
+    "layer0": "tutorialmod:block/rosewood_planks"
+  }
+
+}
